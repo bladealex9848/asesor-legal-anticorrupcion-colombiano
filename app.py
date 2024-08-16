@@ -11,9 +11,9 @@ st.set_page_config(
     initial_sidebar_state='collapsed',
     layout="wide",
     menu_items={
-        'Obtener Ayuda': 'https://www.ramajudicial.gov.co/portal/', # Enlace a la Rama Judicial
-        'Reportar un error': None,
-        'Acerca de': "Asesor Legal Anticorrupción Colombiano: Tu asistente especializado en legislación colombiana contra la corrupción. Proporciona información precisa y actualizada sobre leyes y procedimientos relacionados con la corrupción en Colombia."
+        'Get Help': 'https://www.ramajudicial.gov.co/', 
+        'Report a bug': None,
+        'About': "Asesor Legal Anticorrupción Colombiano: Tu asistente especializado en legislación colombiana contra la corrupción. Proporciona información precisa y actualizada sobre leyes y procedimientos relacionados con la corrupción en Colombia."
     }
 )
 
