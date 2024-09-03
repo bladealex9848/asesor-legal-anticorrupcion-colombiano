@@ -48,6 +48,11 @@ client = openai
 # Presentación del Asesor Legal Anticorrupción Colombiano
 st.title("Bienvenido al Asesor Legal Anticorrupción Colombiano ⚖️")
 
+st.write("""
+    [![ver código fuente](https://img.shields.io/badge/Repositorio%20GitHub-gris?logo=github)](https://github.com/bladealex9848/asesor-legal-anticorrupcion-colombiano)
+    ![Visitantes](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fasesor-legal-anticorrupcion-colombiano.streamlit.app&label=Visitantes&labelColor=%235d5d5d&countColor=%231e7ebf&style=flat)
+    """)
+
 st.markdown("""
 ### ⚖️ ¡Hola! Soy tu Asesor Legal Anticorrupción Colombiano
 
@@ -147,4 +152,4 @@ if prompt := st.chat_input("¿Cómo puedo ayudarte hoy?"):
 st.sidebar.markdown('---')
 st.sidebar.subheader('Creado por:')
 st.sidebar.markdown('Alexander Oviedo Fadul')
-st.sidebar.markdown("[GitHub](https://github.com/bladealex9848) | [Website](https://alexander.oviedo.isabellaea.com/) | [LinkedIn](https://www.linkedin.com/in/alexander-oviedo-fadul-49434b9a/) | [Instagram](https://www.instagram.com/alexander.oviedo.fadul) | [Twitter](https://twitter.com/alexanderofadul) | [Facebook](https://www.facebook.com/alexanderof/) | [WhatsApp](https://api.whatsapp.com/send?phone=573015930519&text=Hola%20!Quiero%20conversar%20contigo!%20)")
+st.sidebar.markdown("[GitHub](https://github.com/bladealex9848) | [Website](https://www.alexanderoviedofadul.dev/) | [LinkedIn](https://www.linkedin.com/in/alexander-oviedo-fadul/) | [Instagram](https://www.instagram.com/alexander.oviedo.fadul) | [Twitter](https://twitter.com/alexanderofadul) | [Facebook](https://www.facebook.com/alexanderof/) | [WhatsApp](https://api.whatsapp.com/send?phone=573015930519&text=Hola%20!Quiero%20conversar%20contigo!%20)")
